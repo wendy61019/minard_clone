@@ -83,7 +83,7 @@ fig_dynamic.update_layout(
     xaxis_title="Temperature map with longitude (Align to the map above)",
     yaxis_title="Celsius (°C)"
 )
-# 調整氣溫圖格線
+#調整氣溫圖格線
 fig_dynamic.update_xaxes(showgrid=True, gridcolor='gray', row=2, col=1)
 fig_dynamic.update_yaxes(range=[-45, 5], gridcolor='gray', row=2, col=1)
 fig_dynamic.write_html("minard_clone_dynamic.html")
