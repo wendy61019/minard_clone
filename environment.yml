@@ -6,3 +6,4 @@ dependencies:
 - pandas=2.2
 - matplotlib=3.8
 - basemap=1.4
+- plotly=6.8
